@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Title.css';
 
-export default () => {
+export default ({onClick}) => {
     return (
-      <div className="Title">
+      <div className="Title" onClick={onClick}>
         <div className="TitleShadow">
           <div className="TitleTextContainer">
             <h1 className="TitleText">
