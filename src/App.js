@@ -2,20 +2,20 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
-  render() {
+
+export default () => {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="app-shadow">
+          <div className="app-title-container">
+            <h1 className="app-title">
+              <big>不朽</big>に踊る<br/><big>銀</big>の<big>街</big>
+            </h1>
+          </div>
+          <div className="app-guide-container">
+            <p>画面をタッチしてください</p>
+          </div>
+        </div>
       </div>
     );
-  }
 }
-
-export default App;
