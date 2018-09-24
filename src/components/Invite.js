@@ -6,7 +6,7 @@ import Character from '../models/Character'
 export default ({onClick, characterId}) => {
     const character = Character.create(characterId)
     return (
-      <Page>
+      <Page onClick={onClick}>
         <div className="InviteHeader">
           <h1>第一の御使い</h1>
           <p>キャラクターを選んでください</p>

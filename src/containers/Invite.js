@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import Invite from "../components/Invite"
-import { changePage } from "../actions"
+import { changeInviteCharacter } from "../actions"
 
 const mapStateToProps = (state) => {
   return {
@@ -10,7 +10,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onClick: () => dispatch(changePage("Invite"))
+    onClick: () => dispatch(changeInviteCharacter())
   }
 }
 

@@ -4,3 +4,10 @@ export function changePage(to) {
         to: to
     }
 }
+
+export function changeInviteCharacter(id) {
+    return {
+        type: "CHANGE_INVITE_CHARACTER",
+        id: id
+    }
+}
