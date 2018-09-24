@@ -1,0 +1,14 @@
+.InviteHeader {
+    height: 100px;
+}
+
+.InviteCharacterContainer {
+    width: 300px;
+    margin: auto;
+}
+
+/* キャラ上部に余分な空白があるので margin-top を負の数にしている */
+.InviteCharacterImage {
+    margin-top: -100px;
+    width: 300px;
+}

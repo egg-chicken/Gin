@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Title from '../containers/Title';
-import Invite from '../components/Invite';
+import Invite from '../containers/Invite';
 import { connect } from 'react-redux';
 
 const App = ({currentPage}) => {
