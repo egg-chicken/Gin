@@ -4,7 +4,7 @@ import Page from './Page';
 
 export default ({onClick}) => {
     return (
-      <Page>
+      <Page onClick={onClick}>
         <div className="TitleTextContainer">
           <h1 className="TitleText">
             <big>不朽</big>に踊る<br/><big>銀</big>の<big>街</big>

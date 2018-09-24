@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
 import "./Page.css"
 
-export default ({children}) => {
+export default ({children, onClick}) => {
     return (
-        <div className="PageBackground">
+        <div className="PageBackground" onClick={onClick}>
             <div className="PageBackgroundShadow">
                 {children}
             </div>

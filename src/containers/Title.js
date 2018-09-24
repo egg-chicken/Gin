@@ -1,5 +1,6 @@
-import { connect } from 'react-redux';
-import Title from "../components/Title";
+import { connect } from 'react-redux'
+import Title from "../components/Title"
+import { changePage } from "../actions"
 
 const mapStateToProps = (state) => {
   return {}
@@ -7,7 +8,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onClick: () => console.log("click")
+    onClick: () => dispatch(changePage("Invite"))
   }
 }
 

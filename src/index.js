@@ -6,5 +6,6 @@ import configureStore from './store';
 import './index.css';
 import App from './containers/App';
 
-ReactDOM.render(<Provider store={configureStore()}><App/></Provider>, document.getElementById('root'));
+const store = configureStore({ currentPage: "Title" })
+ReactDOM.render(<Provider store={store}><App/></Provider>, document.getElementById('root'));
 registerServiceWorker();
