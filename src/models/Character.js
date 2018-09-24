@@ -1,12 +1,13 @@
 const master = [
-    ["ミティ",   "1056010201"],
-    ["アレン",   "1396010201"],
-    ["オリビエ", "1169010201"],
-    ["ソルブ",   "1196010201"]
+    [0, "ミティ",   "1056010201"],
+    [1, "アレン",   "1396010201"],
+    [2, "オリビエ", "1169010201"],
+    [3, "ソルブ",   "1196010201"]
 ]
 
 export default class Character {
-    constructor(name, imageId) {
+    constructor(id, name, imageId) {
+        this.id = id;
         this.name = name;
         this.imageId = imageId;
     }
@@ -17,5 +18,9 @@ export default class Character {
 
     static create (id) {
         return new Character(...master[id])
+    }
+
+    static all() {
+        return master.map((data) => new Character(...data))
     }
 }

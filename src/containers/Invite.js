@@ -4,7 +4,8 @@ import { changeInviteCharacter } from "../actions"
 
 const mapStateToProps = (state) => {
   return {
-    characterId: state.inviteCharacterId
+    characterId: state.inviteCharacterId,
+    characters: state.inviteCharacters
   }
 }
 

@@ -7,8 +7,9 @@
     margin: auto;
 }
 
-/* キャラ上部に余分な空白があるので margin-top を負の数にしている */
 .InviteCharacterImage {
-    margin-top: -100px;
+    position: absolute;
+    left: 0;
+    right: 0;
     width: 300px;
 }
