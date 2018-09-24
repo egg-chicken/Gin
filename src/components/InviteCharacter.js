@@ -8,7 +8,7 @@ export default ({character, enter}) => {
         <Slide in={enter} direction={direction} unmountOnExit>
             <div className="InviteCharacterContainer">
                 <img className="InviteCharacterImage"
-                src={character.getFullBodyImageUrl()}
+                src={character.image.src}
                 alt={character.name}/>
                 {enter}
             </div>
