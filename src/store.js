@@ -1,4 +1,4 @@
-import { createStore, applyMiddleware } from 'redux';
+import { createStore } from 'redux';
 
 const rootReducer = (state = {}, action) => {
   switch(action.type) {

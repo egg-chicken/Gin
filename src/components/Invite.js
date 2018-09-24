@@ -12,7 +12,7 @@ export default ({onClick, characterId}) => {
           <p>キャラクターを選んでください</p>
         </div>
         <div className="InviteCharacterContainer">
-          <img className="InviteCharacterImage" src={character.getFullBodyImageUrl()}/>
+          <img className="InviteCharacterImage" src={character.getFullBodyImageUrl()} alt={character.name}/>
         </div>
       </Page>
     );
