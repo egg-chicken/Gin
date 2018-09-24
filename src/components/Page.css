@@ -1,0 +1,14 @@
+.PageBackground {
+    text-align: center;
+    background: url('/background.jpg');
+    height: 100%;
+}
+
+.PageBackgroundShadow {
+    background: linear-gradient(to bottom, #0D47A0, #0D47A000);
+    height: 100%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
