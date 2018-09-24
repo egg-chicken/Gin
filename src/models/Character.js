@@ -13,7 +13,7 @@ export default class Character {
     }
 
     getFullBodyImageUrl() {
-        return `/characters/${this.imageId}.png`
+        return `${process.env.PUBLIC_URL}/characters/${this.imageId}.png`
     }
 
     static create (id) {

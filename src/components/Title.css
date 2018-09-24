@@ -1,20 +1,5 @@
-.Title {
-    text-align: center;
-    background: url('/background.jpg');
-    height: 100%;
-}
-
-.TitleShadow {
-    background: linear-gradient(to bottom, #0D47A0, #0D47A000);
-    height: 100%;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-
 .TitleTextContainer {
-    background: url('/title-frame.png');
+    background: url('../images/title-frame.png');
     background-size: 100%;
     background-repeat: no-repeat;
     width: 250px;

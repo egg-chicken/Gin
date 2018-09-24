@@ -1,6 +1,6 @@
 .PageBackground {
     text-align: center;
-    background: url('/background.jpg');
+    background: url('../images/background.jpg');
     height: 100%;
 }
 
