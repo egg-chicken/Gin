@@ -3,8 +3,14 @@ html, body, #root {
     padding: 0;
     height: 100%;
     font-family: "Sawarabi Mincho";
+    overflow: hidden;
 }
 
 h1 {
+    font-size: 1.3rem;
     font-weight: normal;
+}
+
+p {
+    font-size: 1.0rem;
 }

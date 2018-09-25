@@ -10,12 +10,14 @@ export default ({onClick, characterId, characters}) => {
     <Page onClick={onClick}>
       <div className="InviteHeader">
         <h1>第一の御使い</h1>
-        <p>キャラクターを選んでください</p>
       </div>
       <div className="InviteSlider">
-        <Slider dots infinite speed={500} slidesToShow={1} slidesToScroll={1}>
+        <Slider dots infinite speed={500} >
           { characters.map(c => <InviteCharacter key={c.id} character={c}/> ) }
         </Slider>
+      </div>
+      <div className="InviteGuide">
+        <p>キャラクターを選択してください</p>
       </div>
     </Page>
   )
