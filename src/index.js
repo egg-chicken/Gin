@@ -8,9 +8,9 @@ import App from './containers/App';
 import Character from './models/Character';
 
 const store = configureStore({
-      currentPage: "Title",
-      inviteCharacterId: 0,
-      inviteCharacters: Character.all()
+  currentPage: "Title",
+  inviteCharacterId: 0,
+  inviteCharacters: Character.all()
 })
 ReactDOM.render(<Provider store={store}><App/></Provider>, document.getElementById('root'));
 registerServiceWorker();

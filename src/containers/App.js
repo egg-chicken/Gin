@@ -5,12 +5,12 @@ import { connect } from 'react-redux';
 
 const App = ({currentPage}) => {
   switch(currentPage) {
-    case "Invite":
-      return <Invite/>
-    case "Title":
-      return <Title/>
-    default:
-      return <p>Not Found</p>
+  case "Invite":
+    return <Invite/>
+  case "Title":
+    return <Title/>
+  default:
+    return <p>Not Found</p>
   }
 }
 
