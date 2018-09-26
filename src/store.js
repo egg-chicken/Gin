@@ -4,8 +4,8 @@ const rootReducer = (state = {}, action) => {
   switch(action.type) {
   case "CHANGE_PAGE":
     return { ...state, currentPage: action.to }
-  case "SELECT_INVITE_CHARACTER":
-    return { ...state, inviteCharacterId: action.characterId }
+  case "INVITE_CHARACTER":
+    return { ...state, characterId: action.characterId, currentPage: 'Invited' }
   default:
     return state
   }

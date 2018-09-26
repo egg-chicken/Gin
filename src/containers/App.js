@@ -1,14 +1,17 @@
 import React from 'react';
 import Title from '../containers/Title';
 import Invite from '../containers/Invite';
+import Invited from '../containers/Invited';
 import { connect } from 'react-redux';
 
 const App = ({currentPage}) => {
   switch(currentPage) {
-  case "Invite":
-    return <Invite/>
   case "Title":
     return <Title/>
+  case "Invite":
+    return <Invite/>
+  case "Invited":
+    return <Invited/>
   default:
     return <p>Not Found</p>
   }

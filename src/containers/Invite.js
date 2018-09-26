@@ -1,6 +1,6 @@
 import { connect } from 'react-redux'
 import Invite from "../components/Invite"
-import { selectInviteCharacter } from "../actions"
+import { inviteCharacter } from "../actions"
 
 const mapStateToProps = (state) => {
   return {
@@ -10,7 +10,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onClick: (id) => dispatch(selectInviteCharacter(id))
+    onClick: (id) => dispatch(inviteCharacter(id))
   }
 }
 
