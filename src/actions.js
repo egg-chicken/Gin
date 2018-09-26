@@ -8,6 +8,6 @@ export function changePage(to) {
 export function inviteCharacter(characterId) {
   return {
     type: "INVITE_CHARACTER",
-    id: characterId
+    characterId: characterId
   }
 }
