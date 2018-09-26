@@ -18,22 +18,16 @@ const handleSwipe = (direction) => {
 export default ({onClick, characters}) => {
   return (
     <Page>
-      <div className="InviteHeader">
-        <h1>第一の御使い</h1>
-      </div>
-
       <div className="InviteSlider">
         <Slider dots infinite speed={300} onSwipe={handleSwipe}>
-          { characters.map(c => <InviteCharacter key={c.id}
-                                                 character={c}
-                                                 onClick={()=>onClick(c.id)}/> ) }
+          { characters.map(c => <InviteCharacter key={c.id} character={c} /> ) }
         </Slider>
       </div>
 
       <div className="InviteGuide">
         <Button color="inherit"
                 variant="outlined"
-                style={{borderColor: "#fff"}}
+                style={{borderColor: "#fff", fontFamily: "Sawarabi Mincho"}}
                 onClick={() => onClick(characters[currentIndex].id)} >
           このキャラクターで始める
         </Button>

@@ -3,6 +3,7 @@ import Invited from "../components/Invited"
 
 const mapStateToProps = (state) => {
   return {
+    characterId: state.inviteCharacterId
   }
 }
 
