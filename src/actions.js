@@ -5,9 +5,9 @@ export function changePage(to) {
   }
 }
 
-export function changeInviteCharacter(id) {
+export function selectInviteCharacter(characterId) {
   return {
-    type: "CHANGE_INVITE_CHARACTER",
-    id: id
+    type: "SELECT_INVITE_CHARACTER",
+    id: characterId
   }
 }
