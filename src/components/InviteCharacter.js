@@ -10,8 +10,10 @@ export default ({character, onClick}) => {
       <img className="InviteCharacterImage"
            src={character.image.src}
            alt={character.name}/>
-      <div className="InviteCharacterLV">Lv. {character.level}</div>
-      <div className="InviteCharacterAbility">{character.ability}</div>
+      <div className="InviteCharacterParams">
+        <div className="InviteCharacterLV">Lv. {character.level}</div>
+        <div className="InviteCharacterAbility">{character.ability}</div>
+      </div>
     </div>
   )
 }

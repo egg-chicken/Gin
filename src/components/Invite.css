@@ -28,18 +28,18 @@
     margin: auto;
 }
 
+.InviteCharacterParams {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
 .InviteCharacterImage {
     margin-top: -60px;
     width: 300px;
 }
 
 .InviteCharacterLV {
-    position: absolute;
-    bottom: 0;
     font-family: Georgia;
     font-size: 2rem;
-}
-
-.InviteCharacterAbility {
-    text-align: right;
 }
