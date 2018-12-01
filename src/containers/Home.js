@@ -1,9 +1,8 @@
 import { connect } from 'react-redux'
-import Invited from "../components/Invited"
+import Home from "../components/Home"
 
 const mapStateToProps = (state) => {
   return {
-    characterId: state.inviteCharacterId
   }
 }
 
@@ -12,4 +11,4 @@ const mapDispatchToProps = (dispatch) => {
   }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Invited);
+export default connect(mapStateToProps, mapDispatchToProps)(Home);

@@ -1,7 +1,7 @@
 import React from 'react';
 import Title from '../containers/Title';
 import Invite from '../containers/Invite';
-import Invited from '../containers/Invited';
+import Home from '../containers/Home';
 import { connect } from 'react-redux';
 
 const App = ({currentPage}) => {
@@ -10,8 +10,8 @@ const App = ({currentPage}) => {
     return <Title/>
   case "Invite":
     return <Invite/>
-  case "Invited":
-    return <Invited/>
+  case "Home":
+    return <Home/>
   default:
     return <p>Not Found</p>
   }
