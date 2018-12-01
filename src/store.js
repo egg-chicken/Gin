@@ -5,7 +5,7 @@ const rootReducer = (state = {}, action) => {
   case "CHANGE_PAGE":
     return { ...state, currentPage: action.to }
   case "INVITE_CHARACTER":
-    const characters = state.characters + [action.character]
+    const characters = state.characters.concat(action.character)
     return { ...state, characters: characters, currentPage: 'Home' }
   default:
     return state
