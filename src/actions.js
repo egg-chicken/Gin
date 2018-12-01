@@ -5,9 +5,9 @@ export function changePage(to) {
   }
 }
 
-export function inviteCharacter(characterId) {
+export function inviteCharacter(character) {
   return {
     type: "INVITE_CHARACTER",
-    characterId: characterId
+    character: character
   }
 }

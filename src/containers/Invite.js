@@ -10,7 +10,7 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    onClick: (id) => dispatch(inviteCharacter(id))
+    onClick: (character) => dispatch(inviteCharacter(character))
   }
 }
 

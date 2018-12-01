@@ -9,7 +9,7 @@ import Character from './models/Character';
 
 const store = configureStore({
   currentPage: "Title",
-  inviteCharacterId: 0,
+  characters: [],
   inviteCharacters: Character.all()
 })
 ReactDOM.render(<Provider store={store}><App/></Provider>, document.getElementById('root'));

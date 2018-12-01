@@ -28,7 +28,7 @@ export default class Invite extends React.Component {
           <Button color="inherit"
                   variant="outlined"
                   style={{borderColor: "#fff", fontFamily: "Sawarabi Mincho"}}
-                  onClick={() => onClick(characters[this.state.index].id)} >
+                  onClick={() => onClick(characters[this.state.index])} >
             このキャラクターで始める
           </Button>
         </div>
