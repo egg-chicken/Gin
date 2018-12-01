@@ -1,0 +1,59 @@
+.SpriteContainer {
+    width: 65px;
+    height: 65px;
+    overflow: hidden;
+}
+
+.SpriteFrame0 { object-position: 0px 0px; }
+.SpriteFrame1 { object-position: -64px 0px; }
+.SpriteFrame2 { object-position: -192px 0px; }
+.SpriteFrame3 { object-position: -256px 0px; }
+.SpriteFrame4 { object-position: -320px 0px; }
+.SpriteFrame5 { object-position: -384px 0px; }
+.SpriteFrame6 { object-position: -448px 0px; }
+.SpriteFrame7 { object-position: -512px 0px; }
+
+.SpriteFrame8 { object-position:     0px -64px; }
+.SpriteFrame9 { object-position:   -64px -64px; }
+.SpriteFrame10 { object-position: -192px -64px; }
+.SpriteFrame11 { object-position: -256px -64px; }
+.SpriteFrame12 { object-position: -320px -64px; }
+.SpriteFrame13 { object-position: -384px -64px; }
+.SpriteFrame14 { object-position: -448px -64px; }
+.SpriteFrame15 { object-position: -512px -64px; }
+
+.SpriteFrame16 { object-position:    0px -128px; }
+.SpriteFrame17 { object-position:  -64px -128px; }
+.SpriteFrame18 { object-position: -192px -128px; }
+.SpriteFrame19 { object-position: -256px -128px; }
+.SpriteFrame20 { object-position: -320px -128px; }
+.SpriteFrame21 { object-position: -384px -128px; }
+.SpriteFrame22 { object-position: -448px -128px; }
+.SpriteFrame23 { object-position: -512px -128px; }
+
+.SpriteFrame24 { object-position:    0px -192px; }
+.SpriteFrame25 { object-position:  -64px -192px; }
+.SpriteFrame26 { object-position: -192px -192px; }
+.SpriteFrame27 { object-position: -256px -192px; }
+.SpriteFrame28 { object-position: -320px -192px; }
+.SpriteFrame29 { object-position: -384px -192px; }
+.SpriteFrame30 { object-position: -448px -192px; }
+.SpriteFrame31 { object-position: -512px -192px; }
+
+.SpriteFrame32 { object-position:    0px -256px; }
+.SpriteFrame33 { object-position:  -64px -256px; }
+.SpriteFrame34 { object-position: -192px -256px; }
+.SpriteFrame35 { object-position: -256px -256px; }
+.SpriteFrame36 { object-position: -320px -256px; }
+.SpriteFrame37 { object-position: -384px -256px; }
+.SpriteFrame38 { object-position: -448px -256px; }
+.SpriteFrame39 { object-position: -512px -256px; }
+
+.SpriteFrame40 { object-position:    0px -320px; }
+.SpriteFrame41 { object-position:  -64px -320px; }
+.SpriteFrame42 { object-position: -192px -320px; }
+.SpriteFrame43 { object-position: -256px -320px; }
+.SpriteFrame44 { object-position: -320px -320px; }
+.SpriteFrame45 { object-position: -384px -320px; }
+.SpriteFrame46 { object-position: -448px -320px; }
+.SpriteFrame47 { object-position: -512px -320px; }

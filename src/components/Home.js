@@ -1,10 +1,11 @@
 import React from 'react'
 import Page from './Page'
 
-export default () => {
+export default ({characters}) => {
+  const character = characters[0]
   return (
     <Page>
-      Home
+      welcome, {character.name}
     </Page>
   )
 }

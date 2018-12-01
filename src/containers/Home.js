@@ -3,6 +3,7 @@ import Home from "../components/Home"
 
 const mapStateToProps = (state) => {
   return {
+    characters: state.characters
   }
 }
 
