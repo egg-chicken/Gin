@@ -1,8 +1,15 @@
 {
-  "main.css": "static/css/main.587d2556.css",
-  "main.css.map": "static/css/main.587d2556.css.map",
-  "main.js": "static/js/main.cff58543.js",
-  "main.js.map": "static/js/main.cff58543.js.map",
-  "static/media/header-frame.png": "static/media/header-frame.5a47a6f8.png",
-  "static/media/title-frame.png": "static/media/title-frame.0911d049.png"
+  "main.css": "/Gin/static/css/main.360e3930.chunk.css",
+  "main.js": "/Gin/static/js/main.075fcedb.chunk.js",
+  "main.js.map": "/Gin/static/js/main.075fcedb.chunk.js.map",
+  "static/js/1.17cec585.chunk.js": "/Gin/static/js/1.17cec585.chunk.js",
+  "static/js/1.17cec585.chunk.js.map": "/Gin/static/js/1.17cec585.chunk.js.map",
+  "runtime~main.js": "/Gin/static/js/runtime~main.56e83e14.js",
+  "runtime~main.js.map": "/Gin/static/js/runtime~main.56e83e14.js.map",
+  "static/css/main.360e3930.chunk.css.map": "/Gin/static/css/main.360e3930.chunk.css.map",
+  "static/media/Title.css": "/Gin/static/media/title-frame.0911d049.png",
+  "static/media/Page.css": "/Gin/static/media/header-frame.5a47a6f8.png",
+  "index.html": "/Gin/index.html",
+  "precache-manifest.63a7fda98c97c8530b3ae2f04409d69d.js": "/Gin/precache-manifest.63a7fda98c97c8530b3ae2f04409d69d.js",
+  "service-worker.js": "/Gin/service-worker.js"
 }
