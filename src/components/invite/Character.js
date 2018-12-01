@@ -1,4 +1,4 @@
-import "./Invite.css"
+import "./Character.css"
 import React from 'react'
 
 export default ({character, onClick}) => {

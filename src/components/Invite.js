@@ -2,7 +2,7 @@ import "./Invite.css"
 import React from 'react'
 import Slider from "react-slick"
 import Page from './Page'
-import InviteCharacter from './InviteCharacter'
+import Character from './invite/Character'
 import Button from '@material-ui/core/Button'
 
 let currentIndex = 0
@@ -20,7 +20,7 @@ export default ({onClick, characters}) => {
     <Page>
       <div className="InviteSlider">
         <Slider dots infinite speed={300} onSwipe={handleSwipe}>
-          { characters.map(c => <InviteCharacter key={c.id} character={c} /> ) }
+          { characters.map(c => <Character key={c.id} character={c} /> ) }
         </Slider>
       </div>
 

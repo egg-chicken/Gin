@@ -22,24 +22,3 @@
     color: #fff;
     opacity: 1;
 }
-
-.InviteCharacterContainer {
-    width: 300px;
-    margin: auto;
-}
-
-.InviteCharacterParams {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-}
-
-.InviteCharacterImage {
-    margin-top: -60px;
-    width: 300px;
-}
-
-.InviteCharacterLV {
-    font-family: Georgia;
-    font-size: 2rem;
-}
